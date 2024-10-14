@@ -1,0 +1,121 @@
+
+.wrapper{
+    min-width: 320px;
+}
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+  
+   
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+html.hidden,
+html.hidden body{
+    overflow: hidden;
+    height: 100%;
+}
+
+.sc-visual .content .title a::before{
+
+ background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_main_2019.png);
+ background-repeat: no-repeat;
+}
+
+.fix-btn{
+    position: fixed;
+    left: 50%;
+    bottom: 50px;
+    z-index: 90;
+    margin-left: 600px;
+    opacity: 0;
+    bottom: -50px;
+    transition: 1s;
+}
+.fix-btn.show{
+    opacity: 1;
+    bottom: 50px;
+}
+
+
+.fix-btn .btn-top{
+    width: 50px;
+    height: 50px;
+   background-image: url(../img/fix.btn.png) ;
+   background-repeat: no-repeat;
+}
+
+
+.group-sns .group-title .more::after,
+.sc-updates .link-more::after,
+.sc-board .link-more::before,
+.sc-visual .control-area .btn,
+#footer .content .group-info a::after,
+.sc-popup .control-area .btn.autoplay,
+.sc-popup .control-area .btn.next,
+.sc-popup .control-area .btn.prev,
+#header .header-bottom .search-area .btn-search,
+#header .header-top .logo a{
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_common_2019.png);
+    background-repeat: no-repeat;
+    
+}
+
+.sc-service .service-item.young a::before,
+.sc-service .service-item.answer a::before,
+.sc-service .service-item.job a::before,
+.sc-service .service-item.realestate a::before,
+.sc-service .service-item.portal a::before,
+.sc-service .service-item.welfare a::before,
+.sc-service .service-item.house a::before,
+.sc-service .service-item.mediahub a::before,
+.sc-service .service-item.democracy a::before,
+.sc-service .service-item.sll a::before,
+.sc-service .service-item.council a::before,
+.sc-service .service-item.public a::before{
+    background-image: url(../img/service-list.png);
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+
+.group-sns .sns-list .sns-item a.twitter,
+.group-sns .sns-list .sns-item a.blog,
+.group-sns .sns-list .sns-item a.kakaostory,
+.group-sns .sns-list .sns-item a.kakaochannel,
+.group-sns .sns-list .sns-item a.youtube,
+.group-sns .sns-list .sns-item a.insta,
+.group-sns .sns-list .sns-item a.facebook{
+    background-image: url(../img/sns-list.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+.sc-shortcut .shortcut-item.economy a::before,
+    .sc-shortcut .shortcut-item.traffic a::before,
+    .sc-shortcut .shortcut-item.environment a::before,
+    .sc-shortcut .shortcut-item.welfare a::before,
+    .sc-shortcut .shortcut-item.safty a::before,
+    .sc-shortcut .shortcut-item.culture a::before,
+    .sc-shortcut .shortcut-item.work a::before,
+.sc-shortcut .shortcut-item.home a::before{
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+}
